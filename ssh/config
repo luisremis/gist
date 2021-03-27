@@ -1,0 +1,14 @@
+Host rem
+  Hostname remis.io
+  User remis
+
+Host github.com
+  User luisremis
+  IdentityFile "~/.ssh/github"
+
+Host server
+  HostName 10.0.0.2
+  User remis
+  ProxyJump rem
+  ServerAliveInterval 20
+  #  ProxyCommand ssh -q rem nc -q0 192.168.0.33 22
