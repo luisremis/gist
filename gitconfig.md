@@ -3,7 +3,7 @@ gitconfig file
 
 Create/Add to config file:
 
-    sudo nano ~/.gitconfig
+    nano ~/.gitconfig
 
 Paste this:
 
